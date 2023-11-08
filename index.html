@@ -1,541 +1,569 @@
 
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 
 <head>
 
 	<meta charset="utf-8">
 	<!-- <base href="/"> -->
 
-	<title>Portfolio Syrone</title>
+	<title>Syrone.</title>
 	<meta name="description" content="">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="icon" href="images/favicon.png">
-	<meta property="og:image" content="images/dist/preview.jpg">
-
+	
 	<!--=============== REMIXICONS  ===============-->
 	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
-	
 	<link rel="stylesheet" href="css/app.min.css">
 
 </head>
 
 <body>
+
 <div class="preloader" data-preloader></div>
 
+<header class="header" id="header">
+	<nav class="nav container">
+		<a href="#" class="nav-logo">
+			Syrone.
+		</a>
 
-	<header class="header" id="header">
-		<nav class="nav container">
-			<a href="#home" class="nav__logo">
-				Portfolio.
-			</a>
+		<div class="nav-menu" id="nav-menu">
+			<ul class="nav-list grid">
+				<li class="nav-item">
+					<a href="#home" class="nav-link is-active">
+						<i class="ri-home-4-line"></i> Главная
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="#skills" class="nav-link">
+						<i class="ri-trophy-line"></i> Навыки
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="#services" class="nav-link">
+						<i class="ri-briefcase-2-line"></i> Услуги
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="#projects" class="nav-link">
+						<i class="ri-gallery-line"></i> Проекты
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="#contact" class="nav-link">
+						<i class="ri-chat-1-line"></i> Контакты
+					</a>
+				</li>
+			</ul>
 
-			<div class="nav__menu" id="nav-menu">
-				<ul class="nav__list grid">
-					<li class="nav__item">
-						<a href="#home" class="nav__link active-link">
-							<i class="ri-home-4-line"></i> Главная
-						</a>
-					</li>
-					<li class="nav__item">
-						<a href="#skills" class="nav__link">
-							<i class="ri-trophy-line"></i> Навыки
-						</a>
-					</li>
-					<li class="nav__item">
-						<a href="#services" class="nav__link">
-							<i class="ri-briefcase-2-line"></i> Услуги
-						</a>
-					</li>
-					<li class="nav__item">
-						<a href="#projects" class="nav__link">
-							<i class="ri-gallery-line"></i> Проекты
-						</a>
-					</li>
-					<li class="nav__item">
-						<a href="#contact" class="nav__link">
-							<i class="ri-chat-1-line"></i> Контакты
-						</a>
-					</li>
-				</ul>
-
-				<div class="nav__close" id="nav-close">
-					<i class="ri-close-line"></i>
-				</div>
+			<div class="nav-close" id="nav-close">
+				<i class="ri-close-line"></i>
 			</div>
+		</div>
 
-			<div class="nav__buttons">
-				<!-- Change theme -->
-				<i class="ri-moon-line change-theme" id="theme-button"></i>
+		<div class="nav-buttons">
+			<!-- Change theme -->
+			<i class="ri-moon-line change-theme ri-sun-line" id="theme-button"></i>
 
-				<!-- Toggle button -->
-				<div class="nav__toggle" id="nav-toggle">
-					<i class="ri-menu-4-line"></i>
-				</div>
+			<!-- Toggle button -->
+			<div class="nav-toggle" id="nav-toggle">
+				<i class="ri-menu-4-line"></i>
 			</div>
-		</nav>
-	</header>
+		</div>
+	</nav>
+</header>
 
-	<main class="main">
-		<section class="home section" id="home">
-			<div class="home__container container grid section__border">
-				<div class="home__data grid">
-					<h1 class="home__title">
-						Привет, я Андрей <br>
-						Frontend Developer <br>
-					</h1>
+<main class="main">
 
-					<div class="home__blob grid">
-						<div class="home__perfil">
-							<img src="images/dist/main-logo.png" alt="Syrone">
-						</div>
+	<section class="home section" id="home">
+		<div class="home-container container grid section-border">
+			<div class="home-data grid">
+				<h1 class="home-title">
+					Frontend Developer
+				</h1>
 
-						<img src="images/dist/shape-wawes.svg" alt="shape-wawes" class="home__shape-wawes">
-						<img src="images/dist/shape-circle.svg" alt="shape-wawes" class="home__shape-circle">
+				<div class="home-blob grid">
+					<div class="home-perfil">
+						<img src="images/dist/main-logo.png" alt="Syrone">
 					</div>
 
+					<img src="images/dist/shape-wawes.svg" alt="shape-wawes" class="home-shape-wawes">
+					<img src="images/dist/shape-circle.svg" alt="shape-wawes" class="home-shape-circle">
+				</div>
 
-					<ul class="home__social">
-						<a href="https://t.me/SSyrone" target="_blank" class="home__social-link">
-							<i class="ri-telegram-line"></i>
-						</a>
-						<a href="https://github.com/Syrone" target="_blank" class="home__social-link">
-							<i class="ri-github-line"></i>
-						</a>
+
+				<ul class="home-social">
+					<a href="https://t.me/SSyrone" target="_blank" class="home-social-link social-link">
+						<i class="ri-telegram-line"></i>
+					</a>
+					<a href="https://github.com/Syrone" target="_blank" class="home-social-link social-link">
+						<i class="ri-github-line"></i>
+					</a>
+				</ul>
+			</div>
+
+			<div class="home-info">
+				<div>
+					<h3 class="home-info-title">
+						Биография
+					</h3>
+
+					<p class="home-info-description">
+						Привет, зовут меня Андрей, Frontend Developer. Увлечен воплощением интересных дизайн-макетов в веб-сайты. <br>
+						Нахожусь в России.
+					</p>
+				</div>
+
+				<div>
+					<h3 class="home-info-title">
+						Контакты
+					</h3>
+
+					<p class="home-info-description">
+						<a target="_blank" href="mailto:cazonove@gmail.com">cazonove@gmail.com</a> <br>
+						<a target="_blank" href="https://t.me/SSyrone">@SSyrone</a>
+					</p>
+				</div>
+
+			</div>
+
+			<div class="home-info">
+				<div>
+					<h3 class="home-info-title">
+						Опыт работы
+					</h3>
+
+					<p class="home-info-number">
+						01+
+					</p>
+				</div>
+
+				<div>
+					<h3 class="home-info-title">
+						Выполненных работ
+					</h3>
+
+					<p class="home-info-number">
+						7+
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="skills section" id="skills">
+		<h2 class="section-title">Навыки</h2>
+		<span class="section-subtitle">Мои фаворитные навыки</span>
+
+		<div class="skills-container container grid section-border">
+			<div>
+				<div class="skills_content">
+					<div class="skills-header">
+						<i class="ri-braces-line skills-icon"></i>
+						<div>
+							<h1 class="skills-title">Frontend developer</h1>
+							<span class="skills-subtitle">Больше 1 года</span>
+						</div>
+					</div>
+
+					<div class="skills-list grid">
+						<div class="skills-data">
+							<div class="skills-titles">
+								<h3 class="skills-name">HTML</h3>
+								<span class="skills-number">96%</span>
+							</div>
+							<div class="skills-bar">
+								<span class="skills-percentage" style="width: 96%;"></span>
+							</div>
+						</div>
+
+						<div class="skills-data">
+							<div class="skills-titles">
+								<h3 class="skills-name">CSS</h3>
+								<span class="skills-number">92%</span>
+							</div>
+							<div class="skills-bar">
+								<span class="skills-percentage" style="width: 92%;"></span>
+							</div>
+						</div>
+
+						<div class="skills-data">
+							<div class="skills-titles">
+								<h3 class="skills-name">JavaScript</h3>
+								<span class="skills-number">66%</span>
+							</div>
+							<div class="skills-bar">
+								<span class="skills-percentage" style="width: 66%;"></span>
+							</div>
+						</div>
+
+						<div class="skills-data">
+							<div class="skills-titles">
+								<h3 class="skills-name">React</h3>
+								<span class="skills-number">12%</span>
+							</div>
+							<div class="skills-bar">
+								<span class="skills-percentage" style="width: 12%;"></span>
+							</div>
+						</div>
+
+						<div class="skills-data">
+							<div class="skills-titles">
+								<h3 class="skills-name">Git</h3>
+								<span class="skills-number">80%</span>
+							</div>
+							<div class="skills-bar">
+								<span class="skills-percentage" style="width: 80%;"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="services section" id="services">
+		<h2 class="section-title">Услуги</h2>
+		<span class="section-subtitle">Что я предлагаю</span>
+
+		<div class="services-container container grid section-border">
+			<div class="services-content">
+				<div>
+					<i class="ri-braces-line services-icon"></i>
+					<h3 class="services-title">Установка <br> на CMS</h3>
+				</div>
+
+				<button class="services-button button">
+					Подробнее <i class="ri-arrow-right-line"></i>
+				</button>
+			</div>
+			<div class="services-modal">
+				<div class="services-modal-content">
+					<h4 class="services-modal-title">Установка на CMS</h4>
+					<i class="ri-close-line services-modal-close"></i>
+
+					<ul class="services-modal-services grid">
+						<li class="services-modal-service">
+							<i class="ri-checkbox-circle-line"></i>
+							<p>Настройка хостинга</p>
+						</li>
+						<li class="services-modal-service">
+							<i class="ri-checkbox-circle-line"></i>
+							<p>Необходимые плагины</p>
+						</li>
+						<li class="services-modal-service">
+							<i class="ri-checkbox-circle-line"></i>
+							<p>Редактирование контента</p>
+						</li>
 					</ul>
 				</div>
-
-				<div class="home__info">
-					<div>
-						<h3 class="home__info-title">
-							Биография
-						</h3>
-
-						<p class="home__info-description">
-							Привет, я Андрей, Frontend Developer. Увлечен воплощением интересных макетов в веб-сайты. Нахожусь в России.
-						</p>
-					</div>
-
-					<div>
-						<h3 class="home__info-title">
-							Контакты
-						</h3>
-
-						<p class="home__info-description">
-							<a target="_blank" href="mailto:cazonove@gmail.com">cazonove@gmail.com</a> <br>
-							<a target="_blank" href="https://t.me/SSyrone">@SSyrone</a>
-						</p>
-					</div>
-
-				</div>
-
-				<div class="home__info">
-					<div>
-						<h3 class="home__info-title">
-							Опыт работы
-						</h3>
-
-						<p class="home__info-number">
-							01+
-						</p>
-					</div>
-
-					<div>
-						<h3 class="home__info-title">
-							Выполненные работы
-						</h3>
-
-						<p class="home__info-number">
-							07+
-						</p>
-					</div>
-				</div>
-
 			</div>
-		</section>
 
-		<section class="skills section" id="skills">
-			<h2 class="section__title">Навыки</h2>
-			<span class="section__subtitle">Мои фаворитные навыки</span>
-
-			<div class="skills__container container grid section__border">
+			<div class="services-content">
 				<div>
-					<div class="skills_content">
-						<div class="skills__header">
-							<i class="ri-braces-line skills__icon"></i>
-							<div>
-								<h1 class="skills__title">Frontend developer</h1>
-								<span class="skills__subtitle">Больше 1 года</span>
-							</div>
-						</div>
-
-						<div class="skills__list grid">
-							<div class="skills__data">
-								<div class="skills__titles">
-									<h3 class="skills__name">HTML</h3>
-									<span class="skills__number">90%</span>
-								</div>
-								<div class="skills__bar">
-									<span class="skills__percentage skills__html"></span>
-								</div>
-							</div>
-							
-							<div class="skills__data">
-								<div class="skills__titles">
-									<h3 class="skills__name">CSS</h3>
-									<span class="skills__number">80%</span>
-								</div>
-								<div class="skills__bar">
-									<span class="skills__percentage skills__css"></span>
-								</div>
-							</div>
-
-							<div class="skills__data">
-								<div class="skills__titles">
-									<h3 class="skills__name">JavaScript</h3>
-									<span class="skills__number">40%</span>
-								</div>
-								<div class="skills__bar">
-									<span class="skills__percentage skills__js"></span>
-								</div>
-							</div>
-
-							<div class="skills__data">
-								<div class="skills__titles">
-									<h3 class="skills__name">JQuery</h3>
-									<span class="skills__number">60%</span>
-								</div>
-								<div class="skills__bar">
-									<span class="skills__percentage skills__jquery"></span>
-								</div>
-							</div>
-
-							<div class="skills__data">
-								<div class="skills__titles">
-									<h3 class="skills__name">Git</h3>
-									<span class="skills__number">40%</span>
-								</div>
-								<div class="skills__bar">
-									<span class="skills__percentage skills__git"></span>
-								</div>
-							</div>
-						</div>
-					</div>
+					<i class="ri-braces-line services-icon"></i>
+					<h3 class="services-title">Разработка <br> по макету</h3>
 				</div>
+
+				<button class="services-button button">
+					Подробнее <i class="ri-arrow-right-line"></i>
+				</button>
 			</div>
-		</section>
+			<div class="services-modal">
+				<div class="services-modal-content">
+					<h4 class="services-modal-title">Разработка по дизайн-макету</h4>
+					<i class="ri-close-line services-modal-close"></i>
 
-		<section class="services section" id="services">
-			<h2 class="section__title">Услуги</h2>
-			<span class="section__subtitle">Что я предлагаю</span>
-
-			<div class="services__container container grid section__border">
-				<div class="services__content">
-					<div>
-						<i class="ri-braces-line services__icon"></i>
-						<h3 class="services__title">Установка <br> на CMS</h3>
-					</div>
-
-					<span class="services__button">
-						Подробнее <i class="ri-arrow-right-line"></i>
-					</span>
-				</div>
-				<div class="services__modal">
-					<div class="services__modal-content">
-						<h4 class="services__modal-title">Установка на CMS</h4>
-						<i class="ri-close-line services__modal-close"></i>
-
-						<ul class="services__modal-services grid">
-							<li class="services__modal-service">
-								<i class="ri-checkbox-circle-line"></i>
-								<p>Установлю ваш сайт на CMS Wordpress</p>
-							</li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="services__content">
-					<div>
-						<i class="ri-braces-line services__icon"></i>
-						<h3 class="services__title">Разработка <br> по макету</h3>
-					</div>
-
-					<span class="services__button">
-						Подробнее <i class="ri-arrow-right-line"></i>
-					</span>
-				</div>
-				<div class="services__modal">
-					<div class="services__modal-content">
-						<h4 class="services__modal-title">Разработка по макету</h4>
-						<i class="ri-close-line services__modal-close"></i>
-
-						<ul class="services__modal-services grid">
-							<li class="services__modal-service">
-								<i class="ri-checkbox-circle-line"></i>
-								<p>Превращу ваш макет в адаптивный и полностью рабочий сайт</p>
-							</li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="services__content">
-					<div>
-						<i class="ri-settings-3-line services__icon"></i>
-						<h3 class="services__title">Доработка <br> сайта</h3>
-					</div>
-
-					<span class="services__button">
-						Подробнее <i class="ri-arrow-right-line"></i>
-					</span>
-				</div>
-				<div class="services__modal">
-					<div class="services__modal-content">
-						<h4 class="services__modal-title">Доработка сайта</h4>
-						<i class="ri-close-line services__modal-close"></i>
-
-						<ul class="services__modal-services grid">
-							<li class="services__modal-service">
-								<i class="ri-checkbox-circle-line"></i>
-								<p>Исправлю проблему вашего сайта качественно и в срок.</p>
-							</li>
-						</ul>
-					</div>
-				</div>
-				
-			</div>
-		</section>
-
-		<section class="projects section" id="projects">
-			<h2 class="section__title">Проекты</h2>
-			<span class="section__subtitle">Лучшие работы</span>
-
-			<div class="container section__border">
-				<div class="projects__container swiper">
-					<div class="swiper-wrapper">
-
-						<div class="projects__content swiper-slide">
-							<img src="images/dist/pre-Vezdehod.png" loading="lazy" alt="Project" class="projects__img">
-	
-							<div>
-								<span class="projects__subtitle">Website</span>
-								<h1 class="projects__title">Vezdehod</h1>
-	
-								<a target="_blank" href="https://syrone.github.io/Vezdehod/" class="projects__button">
-									Подробнее <i class="ri-arrow-right-line"></i>
-								</a>
-							</div>
-						</div>
-	
-						<div class="projects__content swiper-slide">
-							<img src="images/dist/pre-Travelia.png" loading="lazy" alt="Project" class="projects__img">
-	
-							<div>
-								<span class="projects__subtitle">Website</span>
-								<h1 class="projects__title">Travelia</h1>
-	
-								<a target="_blank" href="https://syrone.github.io/Travelia/" class="projects__button">
-									Подробнее <i class="ri-arrow-right-line"></i>
-								</a>
-							</div>
-						</div>
-	
-						<div class="projects__content swiper-slide">
-							<img src="images/dist/pre-Fitlife.png" loading="lazy" alt="Project" class="projects__img">
-	
-							<div>
-								<span class="projects__subtitle">Website</span>
-								<h1 class="projects__title">Fitlife</h1>
-	
-								<a target="_blank" href="https://syrone.github.io/Fitlife/" class="projects__button">
-									Подробнее <i class="ri-arrow-right-line"></i>
-								</a>
-							</div>
-						</div>
-	
-						<div class="projects__content swiper-slide">
-							<img src="images/dist/pre-NoTab.png" loading="lazy" alt="Project" class="projects__img">
-	
-							<div>
-								<span class="projects__subtitle">Website</span>
-								<h1 class="projects__title">NoTab</h1>
-	
-								<a target="_blank" href="https://syrone.github.io/NoTab/" class="projects__button">
-									Подробнее <i class="ri-arrow-right-line"></i>
-								</a>
-							</div>
-						</div>
-
-					</div>
-
-					<div class="swiper-pagination"></div>
-
-				</div>
-			</div>
-		</section>
-
-		<!-- <section class="testimonial section">
-			<h2 class="section__title">Testimonial</h2>
-			<span class="section__subtitle">My client saying</span>
-
-			<div class="container section__border">
-				<div class="testimonial__container swiper">
-					<div class="swiper-wrapper">
-						<div class="testimonial__content swiper-slide">
-							<p class="testimonial__description">
-								"Working with Chris is to give a good impression, I carry out my project at a good cost, with excellent quality and attention. Great service and recommended."
-							</p>
-
-							<div>
-								<h3 class="testimonial__name">
-									Anna Chel
-								</h3>
-								<span class="testimonial__subtitle">
-									Client
-								</span>
-							</div>
-						</div>
-
-						<div class="testimonial__content swiper-slide">
-							<p class="testimonial__description">
-								"Working with Chris is to give a good impression, I carry out my project at a good cost, with excellent quality and attention. Great service and recommended."
-							</p>
-
-							<div>
-								<h3 class="testimonial__name">
-									Mary Lens
-								</h3>
-								<span class="testimonial__subtitle">
-									Client
-								</span>
-							</div>
-						</div>
-
-						<div class="testimonial__content swiper-slide">
-							<p class="testimonial__description">
-								"Working with Chris is to give a good impression, I carry out my project at a good cost, with excellent quality and attention. Great service and recommended."
-							</p>
-
-							<div>
-								<h3 class="testimonial__name">
-									Klay Herris
-								</h3>
-								<span class="testimonial__subtitle">
-									Client
-								</span>
-							</div>
-						</div>
-					</div>
-
-					<div class="swiper-button-prev">
-						<i class="ri-arrow-left-s-line"></i>
-					</div>
-  					<div class="swiper-button-next">
-						<i class="ri-arrow-right-s-line"></i>
-					</div>
-
+					<ul class="services-modal-services grid">
+						<li class="services-modal-service">
+							<i class="ri-checkbox-circle-line"></i>
+							<p>Базовая оптимизация</p>
+						</li>
+						<li class="services-modal-service">
+							<i class="ri-checkbox-circle-line"></i>
+							<p>Переменные CSS</p>
+						</li>
+						<li class="services-modal-service">
+							<i class="ri-checkbox-circle-line"></i>
+							<p>SASS, SCSS, LESS</p>
+						</li>
+						<li class="services-modal-service">
+							<i class="ri-checkbox-circle-line"></i>
+							<p>Нативный JavaScript</p>
+						</li>
+						<li class="services-modal-service">
+							<i class="ri-checkbox-circle-line"></i>
+							<p>Разработка на GULP сборке</p>
+						</li>
+					</ul>
 				</div>
 			</div>
 
-			<img src="images/dist/shape-wawes.svg" alt="testimonial img" class="testimonial__img">
-
-		</section> -->
-
-		<section class="contact section" id="contact">
-			<h2 class="section__title">Связаться со мной</h2>
-			<span class="section__subtitle"></span>
-
-			<div class="contact__container container grid section__border">
-				<div class="contact__content">
-					<h3 class="contact__title">
-						<i class="ri-chat-3-line"></i> Обсудить со мной
-					</h3>
-
-					<div class="contact__info">
-						<div class="contact__data">
-							<span class="contact__data-title">Email</span>
-							<span class="contact__data-info">cazonove@gmail.com</span>
-						</div>
-
-						<div class="contact__data">
-							<span class="contact__data-title">Telegram</span>
-							<span class="contact__data-info">@SSyrone</span>
-
-							<a href="https://t.me/SSyrone" target="_blank" class="contact__button">
-								Написать мне <i class="ri-arrow-right-line"></i>
-							</a>
-						</div>
-					</div>
+			<div class="services-content">
+				<div>
+					<i class="ri-settings-3-line services-icon"></i>
+					<h3 class="services-title">Доработка <br> сайта</h3>
 				</div>
 
-				<div class="contact__content">
-					<h3 class="contact__title">
-						<i class="ri-send-plane-line"></i> Напиши о своем проекте
-					</h3>
+				<button class="services-button button">
+					Подробнее <i class="ri-arrow-right-line"></i>
+				</button>
+			</div>
+			<div class="services-modal">
+				<div class="services-modal-content">
+					<h4 class="services-modal-title">Доработка сайта</h4>
+					<i class="ri-close-line services-modal-close"></i>
 
-					<form action="" class="contact__form" id="contact-form">
-						<div class="contact__form-div">
-							<label class="contact__form-tag">Имя</label>
-							<input type="text" name="user_name" required placeholder="Укажите ваше имя" class="contact__form-input" id="contact-name">
-						</div>
-
-						<div class="contact__form-div">
-							<label class="contact__form-tag">Почта</label>
-							<input type="email" name="user_email" required placeholder="Укажите вашу почту" class="contact__form-input" id="contact-email">
-						</div>
-
-						<div class="contact__form-div contact__form-area">
-							<label class="contact__form-tag">Проект</label>
-							<textarea name="user_project" placeholder="Напишите о своем проекте" id="contact-project" class="contact__form-input"></textarea>
-						</div>
-
-						<p class="contact__message" id="contact-message"></p>
-
-						<button type="submit" class="contact__button">
-							Отправить <i class="ri-arrow-right-up-line"></i>
-						</button>
-					</form>
+					<ul class="services-modal-services grid">
+						<li class="services-modal-service">
+							<i class="ri-checkbox-circle-line"></i>
+							<p>Соответствие с дизайн-макетом</p>
+						</li>
+						<li class="services-modal-service">
+							<i class="ri-checkbox-circle-line"></i>
+							<p>Добавление контента</p>
+						</li>
+						<li class="services-modal-service">
+							<i class="ri-checkbox-circle-line"></i>
+							<p>Редизайн по дизайн-макету</p>
+						</li>
+						<li class="services-modal-service">
+							<i class="ri-checkbox-circle-line"></i>
+							<p>Исправление ошибок</p>
+						</li>
+					</ul>
 				</div>
 			</div>
-		</section>
 
-	</main>
-
-	<footer class="footer">
-		<div class="footer__container container">
-			<h1 class="footer__title">Андрей</h1>
-			<p>Frontend Developer</p>
-
-			<ul class="footer__list">
-				<li>
-					<a href="#home" class="footer__link">Главная</a>
-				</li>
-
-				<li>
-					<a href="#skills" class="footer__link">Навыки</a>
-				</li>
-
-				<li>
-					<a href="#projects" class="footer__link">Проекты</a>
-				</li>
-			</ul>
-
-			<ul class="footer__social">
-				<a href="https://t.me/SSyrone" target="_blank" class="footer__social-link">
-					<i class="ri-telegram-line"></i>
-				</a>
-				<a href="https://github.com/Syrone" target="_blank" class="footer__social-link">
-					<i class="ri-github-line"></i>
-				</a>
-			</ul>
 		</div>
-	</footer>
+	</section>
 
-	<a href="#" class="scrollup" id="scroll-up">
-		<i class="ri-arrow-up-line"></i>
-	</a>
+	<section class="projects section" id="projects">
+		<div class="project--vignette"></div>
 
+		<div class="project-swiper">
+			<div class="swiper slider slider1">
+				<div class="swiper-wrapper slider-wrapper">
+					<div class="swiper-slide slider-item">
+						<div class="slider-img" style="background-image: url(images/dist/pre-Travelia.png);">
+							<a href="https://syrone.github.io/Travelia/dist/index.html" target="_blank" class="slider-img--link"></a>
+						</div>
+					</div>
+					<div class="swiper-slide slider-item">
+						<div class="slider-img" style="background-image: url(images/dist/pre-Fitlife.png);">
+							<a href="https://syrone.github.io/Fitlife/dist/index.html" target="_blank" class="slider-img--link"></a>
+						</div>
+					</div>
+					<div class="swiper-slide slider-item">
+						<div class="slider-img" style="background-image: url(images/dist/pre-Giraffe.png);">
+							<a href="https://syrone.github.io/Giraffe-Fund/dist/index.html" target="_blank" class="slider-img--link"></a>
+						</div>
+					</div>
+					<div class="swiper-slide slider-item">
+						<div class="slider-img" style="background-image: url(images/dist/pre-XUnder.png);">
+							<a href="https://syrone.github.io/X-Under/dist/index.html" target="_blank" class="slider-img--link"></a>
+						</div>
+					</div>
+					<div class="swiper-slide slider-item">
+						<div class="slider-img" style="background-image: url(images/dist/pre-FunSun.png);">
+							<a href="https://syrone.github.io/Fun-Sun/dist/index.html" target="_blank" class="slider-img--link"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper slider slider2">
+				<div class="swiper-wrapper slider-wrapper">
+					<div class="swiper-slide slider-item">
+						<div class="slider-img" style="background-image: url(images/dist/pre-FunSun.png);">
+							<a href="https://syrone.github.io/Fun-Sun/dist/index.html" target="_blank" class="slider-img--link"></a>
+						</div>
+					</div>
+					<div class="swiper-slide slider-item">
+						<div class="slider-img" style="background-image: url(images/dist/pre-XUnder.png);">
+							<a href="https://syrone.github.io/X-Under/dist/index.html" target="_blank" class="slider-img--link"></a>
+						</div>
+					</div>
+					<div class="swiper-slide slider-item">
+						<div class="slider-img" style="background-image: url(images/dist/pre-Giraffe.png);">
+							<a href="https://syrone.github.io/Giraffe-Fund/dist/index.html" target="_blank" class="slider-img--link"></a>
+						</div>
+					</div>
+					<div class="swiper-slide slider-item">
+						<div class="slider-img" style="background-image: url(images/dist/pre-Fitlife.png);">
+							<a href="https://syrone.github.io/Fitlife/dist/index.html" target="_blank" class="slider-img--link"></a>
+						</div>
+					</div>
+					<div class="swiper-slide slider-item">
+						<div class="slider-img" style="background-image: url(images/dist/pre-Travelia.png);">
+							<a href="https://syrone.github.io/Travelia/dist/index.html" target="_blank" class="slider-img--link"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper slider slider3">
+				<div class="swiper-wrapper slider-wrapper">
+					<div class="swiper-slide slider-item">
+						<div class="slider-img" style="background-image: url(images/dist/pre-Travelia.png);">
+							<a href="https://syrone.github.io/Travelia/dist/index.html" target="_blank" class="slider-img--link"></a>
+						</div>
+					</div>
+					<div class="swiper-slide slider-item">
+						<div class="slider-img" style="background-image: url(images/dist/pre-Fitlife.png);">
+							<a href="https://syrone.github.io/Fitlife/dist/index.html" target="_blank" class="slider-img--link"></a>
+						</div>
+					</div>
+					<div class="swiper-slide slider-item">
+						<div class="slider-img" style="background-image: url(images/dist/pre-Giraffe.png);">
+							<a href="https://syrone.github.io/Giraffe-Fund/dist/index.html" target="_blank" class="slider-img--link"></a>
+						</div>
+					</div>
+					<div class="swiper-slide slider-item">
+						<div class="slider-img" style="background-image: url(images/dist/pre-XUnder.png);">
+							<a href="https://syrone.github.io/X-Under/dist/index.html" target="_blank" class="slider-img--link"></a>
+						</div>
+					</div>
+					<div class="swiper-slide slider-item">
+						<div class="slider-img" style="background-image: url(images/dist/pre-FunSun.png);">
+							<a href="https://syrone.github.io/Fun-Sun/dist/index.html" target="_blank" class="slider-img--link"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper slider slider4">
+				<div class="swiper-wrapper slider-wrapper">
+					<div class="swiper-slide slider-item">
+						<div class="slider-img" style="background-image: url(images/dist/pre-FunSun.png);">
+							<a href="https://syrone.github.io/Fun-Sun/dist/index.html" target="_blank" class="slider-img--link"></a>
+						</div>
+					</div>
+					<div class="swiper-slide slider-item">
+						<div class="slider-img" style="background-image: url(images/dist/pre-XUnder.png);">
+							<a href="https://syrone.github.io/X-Under/dist/index.html" target="_blank" class="slider-img--link"></a>
+						</div>
+					</div>
+					<div class="swiper-slide slider-item">
+						<div class="slider-img" style="background-image: url(images/dist/pre-Giraffe.png);">
+							<a href="https://syrone.github.io/Giraffe-Fund/dist/index.html" target="_blank" class="slider-img--link"></a>
+						</div>
+					</div>
+					<div class="swiper-slide slider-item">
+						<div class="slider-img" style="background-image: url(images/dist/pre-Fitlife.png);">
+							<a href="https://syrone.github.io/Fitlife/dist/index.html" target="_blank" class="slider-img--link"></a>
+						</div>
+					</div>
+					<div class="swiper-slide slider-item">
+						<div class="slider-img" style="background-image: url(images/dist/pre-Travelia.png);">
+							<a href="https://syrone.github.io/Travelia/dist/index.html" target="_blank" class="slider-img--link"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="contact section" id="contact">
+		<h2 class="section-title">Связаться со мной</h2>
+		<span class="section-subtitle"></span>
+
+		<div class="contact-container container grid section-border">
+			<div class="contact-content">
+				<h3 class="contact-title">
+					<i class="ri-chat-3-line"></i> Обсудить со мной
+				</h3>
+
+				<div class="contact-info">
+					<div class="contact-data">
+						<span class="contact-data-title">Email</span>
+						<span class="contact-data-info">cazonove@gmail.com</span>
+					</div>
+
+					<div class="contact-data">
+						<span class="contact-data-title">Telegram</span>
+						<span class="contact-data-info">@SSyrone</span>
+
+						<a href="https://t.me/SSyrone" target="_blank" class="contact-button button">
+							Написать мне <i class="ri-arrow-right-line"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="contact-content">
+				<h3 class="contact-title">
+					<i class="ri-send-plane-line"></i> Напиши о своем проекте
+				</h3>
+
+				<form action="" class="contact-form" id="contact-form">
+					<div class="contact-form-div">
+						<label class="contact-form-tag">Имя</label>
+						<input type="text" name="user_name" placeholder="Укажите ваше имя" class="contact-form-input"
+							id="contact-name">
+					</div>
+
+					<div class="contact-form-div">
+						<label class="contact-form-tag">Почта</label>
+						<input type="email" name="user_email" placeholder="Укажите вашу почту"
+							class="contact-form-input" id="contact-email">
+					</div>
+
+					<div class="contact-form-div contact-form-area">
+						<label class="contact-form-tag">Проект</label>
+						<textarea name="user_project" placeholder="Напишите о своем проекте" id="contact-project"
+							class="contact-form-input"></textarea>
+					</div>
+
+					<p class="contact-message" id="contact-message"></p>
+
+					<button type="submit" class="contact-button button button-lg">
+						Отправить <i class="ri-arrow-right-up-line"></i>
+					</button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+</main>
+
+<a href="#home" class="scrollup" id="scroll-up">
+	<i class="ri-arrow-up-line"></i>
+</a>
+
+<footer class="footer">
+	<div class="footer-container container">
+		<h2 class="footer-title">
+			Syrone.
+		</h2>
+		<p>Frontend Developer</p>
+
+		<ul class="footer-list">
+			<li>
+				<a href="#home" class="footer-link">Главная</a>
+			</li>
+
+			<li>
+				<a href="#skills" class="footer-link">Навыки</a>
+			</li>
+
+			<li>
+				<a href="#projects" class="footer-link">Проекты</a>
+			</li>
+		</ul>
+
+		<ul class="footer-social">
+			<a href="https://t.me/SSyrone" target="_blank" class="footer-social-link social-link">
+				<i class="ri-telegram-line"></i>
+			</a>
+			<a href="https://github.com/Syrone" target="_blank" class="footer-social-link social-link">
+				<i class="ri-github-line"></i>
+			</a>
+		</ul>
+	</div>
+</footer>
+	
 	<script src="js/app.min.js"></script>
 
 </body>
